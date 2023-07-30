@@ -1,7 +1,6 @@
 <template>
   <main>
     <div id="w1" class="w1">
-      <h2>私でいいの？</h2>
       <img src="src/assets/window-iino.PNG" alt="window" class="window">
     </div>
   </main>
@@ -17,7 +16,7 @@
     width: 40%;
   }
   @media screen and (max-width: 480px) {
-    div#w1, h2, img.window {
+    div#w1, img.window {
       font-size: medium;
       width: 90%;
     }

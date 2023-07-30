@@ -26,10 +26,13 @@
   </main>
 
   <footer>
+    <small id="small">©️2023 東京都市大学キラキラ大学生研究会(TCU KillerDie) /&nbsp; Design: 聖乳くるみ・匿名希望下マナト / Code: Manato Yamasahita</small>
+
     <img src="src/assets/bottomvar.PNG" alt="footer" id="footer-back">
     <button id="button-start" class="button"><router-link to="w5"><img src="src/assets/button-start.PNG" alt="buuton-start"></router-link></button>
     <button id="button-exp" class="button"><router-link to="w6"><img src="src/assets/button-exploler.PNG" alt="button-explorer"></router-link></button>
-    <p id="time">{{ currentTime }}</p>
+    <p id="time">{{ currentTime }} <br>
+    </p>
   </footer>
 </template>
 
@@ -138,9 +141,17 @@ footer p#time{
   position: absolute;
   bottom: 0;
   right: 1rem;
-  margin: 1rem;
+  margin: 1rem 2rem 1rem 1rem;
   font-weight: bold;
   font-size: large;
+  text-align: right;
+  width: 100%;
+}
+#small {
+  font-size: x-small;
+  letter-spacing: 0;
+  color: rgb(175, 91, 105);
+  padding-left: 1rem;
 }
 
 @keyframes scale {
@@ -173,6 +184,10 @@ footer p#time{
     position: absolute;
     top: 40%;
     height: 50vh;
+  }
+  small#small {
+    font-size: xx-small;
+    color: pink;
   }
 }
 
