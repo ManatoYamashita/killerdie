@@ -21,7 +21,7 @@
               </ul>
             </div>
       </article>
-</div>
+    </div>
 </template>
 
 <style scoped>
@@ -33,6 +33,7 @@
         width: 80%;
         height: 85%;
         padding: 8% 3% 3% 3%;
+        max-width: 700px;
     }
     article {
         font-size: 1vw;
@@ -58,6 +59,10 @@
     p {
         font-size: 1vw;
         padding: 5% 5% 2% 0;
+    }
+    li {
+      padding: 2px;
+      font-size: .7vw;
     }
     strong {
         font-size: 1.2vw;

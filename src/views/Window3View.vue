@@ -1,25 +1,98 @@
 <template>
-    <div class="w3" id="w3">
-      <h2>ゴミ箱</h2>
-      <img src="src/assets/window.PNG" alt="window" class="window">
+    <div class="w3">
+      <article>
+          <div class="content c1">
+              <h3>祝！キラ大1周年‼️</h3>
+              <img id="logo" src="src/assets/logo.svg" alt="logo">
+              <p>
+                キラ大は2023年7月をもって1周年です。私たちはあの頃よりも少しだけ、キラキラ大学生になれたかな。キラ大の1年を振り返ってみましょう。
+              </p>
+              <img class="images" id="image1" src="src/assets/1.jpeg" alt="キラ大集会">
+              <img class="images" id="image2" src="src/assets/2.jpeg" alt="おかげあん">
+              <img class="images" id="image3" src="src/assets/3.jpeg" alt="オーストラリア支部">
+              <img class="images" id="image3" src="src/assets/4.jpeg" alt="会長">
+
+          </div>
+          <div class="content c2">
+            <h3>キラ大の1年間(2022)</h3>
+              <ul>
+                <li><strong>7月</strong>: キラ大発足。第一回説明会</li>
+                <li><strong>8月</strong>: 内部分裂。トレ大と分派</li>
+                <li><strong>9月</strong>: 潜伏期間。Twitter活発化</li>
+                <li><strong>10月</strong>: 匿名希望下マナト、はゆ入会。（3分も入会）</li>
+                <li><strong>11月</strong>: 再スタート。第一回目の活動を横浜市で行う。/ 門馬犬一回目の退会 / あきやまそら入会 / 帝都交通入会 / 方針がある程度固まる。</li>
+                <li><strong>12月</strong>: TCU Advent Calender2022に参加。 / 春水堂で集まる。 / ３分と会戦。3分退会 / プラットフォームをLINEからDiscordに。</li>
+                <li><strong>1月</strong>: にゃんにゃん老師入会 / 門馬犬、会長誕生日サプライズ</li>
+                <li><strong>2月</strong>: 匿名希望下マナト、はゆ留学。オーストラリア支部発足、くら寿司、表参道</li>
+                <li><strong>3月</strong>: おかげ庵</li>
+                <li><strong>4月</strong>: ??? 忘れた / 俺の誕生日 / スイパラ集会</li>
+                <li><strong>5月</strong>: オーストラリアから帰国。 / はゆ生誕祭 / 初めての違反者はゆまな</li>
+                <li><strong>6月</strong>: ??? 忘れた / まめだif入会？ / たなげんkickbase</li>
+                <li><strong>7月</strong>: 祝一周年！ / そらくる / エルマーの冒険店 / 金沢フェス</li>
+              </ul>
+          </div>
+      </article>
     </div>
 </template>
   
 <style scoped>
-    div#w3 {
-        position: relative;
-        top: 30%;
-        left: 20%;
+    div.w3 {
+        background-image: url(src/assets/window.PNG);
+        background-size: 90%;
+        background-position: initial;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 85%;
+        padding: 8% 3% 3% 3%;
+        max-width: 700px;
     }
-    h2, div img.window {
-        width: 40%;
+    article {
+        font-size: 1vw;
+        padding: 2%;
+        margin: 2%;
+        display: flex;
+    }
+    .content {
+        width: 45%;
+        margin: 1%;
+        padding-top: 5%;
+    }
+    .c1 {
+        padding-left: 2%;
+    }
+    .c2 {
+        padding-right: 15%;
+    }
+    img#logo {
+        width: 70%;
+        padding: 0;
+        margin: 0;
+    }
+    p {
+        font-size: 1vw;
+        padding: 5% 5% 2% 0;
     }
 
-    @media screen and (max-width: 480px) {
-        div#w3, h2, img.window {
-        font-size: medium;
-        width: 90%;
+
+    li {
+    padding: 2px;
+    font-size: .7vw;
+    }
+    strong {
+        font-size: 1.2vw;
+        font-weight: bold;
+    }
+    img.images {
+        width: 40%;
+        margin: 1%;
+    }
+
+    @media screen and (max-width: 520px) {
+        div.w2 {
+            width: 90%;
+        }
+        article ul li {
+            font-size: 1vw;
         }
     }
 </style>
-  

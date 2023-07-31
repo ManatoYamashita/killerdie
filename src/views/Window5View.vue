@@ -15,10 +15,12 @@
         width: 70%;
     }
 
-    @media screen and (max-width: 480px) {
-        div#w5, h2, img.window {
-        font-size: medium;
-        width: 90%;
+    @media screen and (max-width: 520px) {
+        div.w5 {
+            width: 90%;
+        }
+        article ul li {
+            font-size: 1vw;
         }
     }
 </style>

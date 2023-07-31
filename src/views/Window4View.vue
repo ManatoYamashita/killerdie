@@ -33,7 +33,8 @@
                     <li><a href="https://note.com/killer_die/">note.com</a></li>
                 </ul> 
                 <p>お問い合わせは各リンク先のDMへ。<br>
-                    なお、現在新メンバーは公募しておりませんが、ご興味がおありの方は、ご連絡ください。</p>               
+                    なお、現在新メンバーは公募しておりませんが、ご興味がおありの方は、ご連絡ください。
+                </p>
             </div>
         </article>
     </div>
@@ -48,6 +49,7 @@
         width: 60%;
         height: 70%;
         padding: 8% 3% 3% 3%;
+        max-width: 600px;
     }
     article {
         font-size: 1.2vw;

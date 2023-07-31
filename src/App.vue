@@ -74,10 +74,6 @@ header img#power {
   margin: 1rem;
 }
 
-main div#apps {
-  height: 100vh;
-}
-
 ul {
   padding: 0;
 }
@@ -94,7 +90,7 @@ div#desktop {
   top: 5%;
   left: 15%;
   width: 85%;
-  height: 90vh;
+  height: 70vh;
 }
 
 footer {
@@ -145,7 +141,6 @@ footer p#time{
   font-weight: bold;
   font-size: large;
   text-align: right;
-  width: 100%;
 }
 #small {
   font-size: x-small;
