@@ -19,7 +19,8 @@
         margin: 2%;
     }
     img {
-        width: 60%;
+        width: 30%;
+        filter: blur(30%);
     }
 h2, img.window {
     width: 70%;

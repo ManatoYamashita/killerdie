@@ -21,9 +21,11 @@
         top: 0;
         left: 5%;
     }
-    h2, .window, p {
+    h2, .window {
         width: 50%;
-        padding: 5%;
+    }
+    p {
+        width: 50%;
     }
 
     @media screen and (max-width: 520px) {
