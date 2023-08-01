@@ -4,7 +4,7 @@
             <h2>エクスプローラ</h2>
             <h3>2023年 キラ大1周年 『そらくる、おめでとうございます！』</h3>
             <p>リクエストありがとうございます。</p>
-            <img src="src/assets/sorakuru.PNG" alt="そらくる、おめでとうございます！リクエストありがとうございます。" class="sorakuru">
+            <img src="@/assets/sorakuru.svg" alt="そらくる、おめでとうございます！リクエストありがとうございます。" class="sorakuru">
         </article>
     </div>
 </template>

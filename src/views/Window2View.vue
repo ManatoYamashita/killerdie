@@ -30,8 +30,8 @@
         background-size: 90%;
         background-position: initial;
         background-repeat: no-repeat;
-        width: 80%;
-        height: 85%;
+        width: 95%;
+        height: 95%;
         padding: 8% 3% 3% 3%;
         max-width: 700px;
     }
@@ -39,12 +39,14 @@
         font-size: 1vw;
         padding: 2%;
         margin: 2%;
+        width: 60vw;
+        max-width: 690px;
         display: flex;
     }
     .content {
         width: 45%;
         margin: 1%;
-        padding-top: 5%;
+        padding-top: 1.5%;
     }
     .c1 {
         padding-left: 2%;
@@ -65,7 +67,7 @@
       font-size: .7vw;
     }
     strong {
-        font-size: 1.2vw;
+        font-size: 1.0vw;
         font-weight: bold;
     }
 

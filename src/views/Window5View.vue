@@ -1,7 +1,9 @@
 <template>
     <div class="w5" id="w5">
       <h2>スタート</h2>
-      <img src="src/assets/window.PNG" alt="window" class="window">
+      <h3>Comming Soon...</h3>
+      <img src="@/assets/5.jpeg" alt="window" class="window">
+      <img src="@/assets/logo.svg" alt="logo" class="logo" style="width: 30%;">
     </div>
 </template>
   
@@ -12,7 +14,7 @@
         left: 5%;
     }
     h2, .window {
-        width: 70%;
+        width: 50%;
     }
 
     @media screen and (max-width: 520px) {

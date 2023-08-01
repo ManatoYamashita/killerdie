@@ -1,7 +1,7 @@
 <template>
   <main>
     <div id="w1" class="w1">
-      <img src="src/assets/window-iino.PNG" alt="window" class="window">
+      <img src="@/assets/window-iino.svg" alt="window" class="window">
     </div>
   </main>
 </template>

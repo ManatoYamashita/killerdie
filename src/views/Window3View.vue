@@ -3,14 +3,15 @@
       <article>
           <div class="content c1">
               <h3>祝！キラ大1周年‼️</h3>
-              <img id="logo" src="src/assets/logo.svg" alt="logo">
+              <img id="logo" src="@/assets/logo.svg" alt="logo">
               <p>
                 キラ大は2023年7月をもって1周年です。私たちはあの頃よりも少しだけ、キラキラ大学生になれたかな。キラ大の1年を振り返ってみましょう。
               </p>
-              <img class="images" id="image1" src="src/assets/1.jpeg" alt="キラ大集会">
-              <img class="images" id="image2" src="src/assets/2.jpeg" alt="おかげあん">
-              <img class="images" id="image3" src="src/assets/3.jpeg" alt="オーストラリア支部">
-              <img class="images" id="image3" src="src/assets/4.jpeg" alt="会長">
+              <img class="images" id="image1" src="@/assets/1.jpeg" alt="キラ大集会">
+              <img class="images" id="image2" src="@/assets/2.jpeg" alt="おかげあん">
+              <img class="images" id="image3" src="@/assets/3.jpeg" alt="オーストラリア支部">
+              <img class="images" id="image4" src="@/assets/4.jpeg" alt="会長">
+              <img class="images" id="image6" src="@/assets/6.jpeg" alt="what we have?">
 
           </div>
           <div class="content c2">
@@ -41,24 +42,24 @@
         background-size: 90%;
         background-position: initial;
         background-repeat: no-repeat;
-        width: 80%;
-        height: 85%;
+        width: 90%;
+        height: 90%;
         padding: 8% 3% 3% 3%;
         max-width: 700px;
     }
     article {
-        font-size: 1vw;
+        font-size: 1.2vw;
         padding: 2%;
         margin: 2%;
         display: flex;
     }
     .content {
-        width: 45%;
         margin: 1%;
-        padding-top: 5%;
+        padding-top: 1.3%;
     }
     .c1 {
         padding-left: 2%;
+        width: 37%;
     }
     .c2 {
         padding-right: 15%;
@@ -69,17 +70,19 @@
         margin: 0;
     }
     p {
-        font-size: 1vw;
-        padding: 5% 5% 2% 0;
+        font-size: .8vw;
+        padding: 5% 5% 2% 5%;
     }
 
-
+    ul {
+        padding-inline-start: 2rem;
+    }
     li {
     padding: 2px;
     font-size: .7vw;
     }
     strong {
-        font-size: 1.2vw;
+        font-size: 1vw;
         font-weight: bold;
     }
     img.images {
@@ -89,10 +92,17 @@
 
     @media screen and (max-width: 520px) {
         div.w2 {
-            width: 90%;
+            width: 100%;
         }
         article ul li {
             font-size: 1vw;
+            padding: 1px;
         }
+        .content {
+            padding-top: 5%;
+        }
+        ul {
+        padding-inline-start: 0;
+    }
     }
 </style>

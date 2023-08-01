@@ -2,16 +2,16 @@
 
 <template>
   <header>
-    <img src="src/assets/power.PNG" alt="power" id="power">
+    <img src="../src/assets/power.svg" alt="power" id="power">
   </header>
   
   <main>
     <div id="apps">
       <ul>
-        <li><router-link to="/"><img src="src/components/icons/milk.PNG" alt="milk" class="icons"></router-link></li>
-        <li><router-link to="w2"><img src="src/components/icons/internet.PNG" alt="interner" class="icons"></router-link></li>
-        <li><router-link to="w3"><img src="src/components/icons/dustbox.PNG" alt="dustbox" class="icons"></router-link></li>
-        <li><router-link to="w4"><img src="src/components/icons/mail.PNG" alt="mail" class="icons"></router-link></li>
+        <li><router-link to="/"><img src="@/components/icons/milk.svg" alt="milk" class="icons"></router-link></li>
+        <li><router-link to="w2"><img src="@/components/icons/internet.svg" alt="internet" class="icons"></router-link></li>
+        <li><router-link to="w3"><img src="@/components/icons/dustbox.svg" alt="dustbox" class="icons"></router-link></li>
+        <li><router-link to="w4"><img src="@/components/icons/mail.svg" alt="mail" class="icons"></router-link></li>
       </ul>
     </div>
 
@@ -28,9 +28,9 @@
   <footer>
     <small id="small">©️2023 東京都市大学キラキラ大学生研究会(TCU KillerDie) /&nbsp; Design: 聖乳くるみ・匿名希望下マナト / Code: Manato Yamasahita</small>
 
-    <img src="src/assets/bottomvar.PNG" alt="footer" id="footer-back">
-    <button id="button-start" class="button"><router-link to="w5"><img src="src/assets/button-start.PNG" alt="buuton-start"></router-link></button>
-    <button id="button-exp" class="button"><router-link to="w6"><img src="src/assets/button-exploler.PNG" alt="button-explorer"></router-link></button>
+    <img src="@/assets/bottom-var.svg" alt="footer" id="footer-back">
+    <button id="button-start" class="button"><router-link to="w5"><img src="@/assets/start.svg" alt="buuton-start"></router-link></button>
+    <button id="button-exp" class="button"><router-link to="w6"><img src="@/assets/explorer.svg" alt="button-explorer"></router-link></button>
     <p id="time">{{ currentTime }} <br>
     </p>
   </footer>
@@ -68,7 +68,7 @@ header {
   right: 0;
 }
 header img#power {
-  width: 100px;
+  width: 80px;
   object-fit: cover;
   display: block;
   margin: 1rem;
@@ -98,10 +98,11 @@ footer {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 100%;
 }
 footer img#footer-back {
   position: relative;
-  bottom: 0;
+  bottom: -30px;
   right: 1%;
   width: 103%;
   object-fit: cover;
@@ -117,7 +118,7 @@ footer button#button-start {
   margin: 1rem;
 }
 footer button#button-start img {
-  width: 100px;
+  width: 75px;
   object-fit: cover;
   display: block;
 }
@@ -125,10 +126,10 @@ footer button#button-exp {
   position: absolute;
   bottom: 0;
   left: 120px;
-  margin: 1rem;
+  margin: .5rem;
 }
 footer button#button-exp img {
-  width: 140px;
+  width: 100px;
   object-fit: cover;
   display: block;
 }
@@ -143,10 +144,13 @@ footer p#time{
   text-align: right;
 }
 #small {
+  position: relative;
+  top: 10%;
   font-size: x-small;
   letter-spacing: 0;
   color: rgb(175, 91, 105);
-  padding-left: 1rem;
+  padding-right: 1rem;
+  float: right;
 }
 
 @keyframes scale {
@@ -171,6 +175,9 @@ footer p#time{
     width: 50px;
     margin: 2px;
   }
+  footer img#footer-back {
+    bottom: 0;
+  }
   footer button#button-exp img, footer button#button-start img, footer p#time {
     width: 80px;
     margin: 0;
@@ -183,6 +190,9 @@ footer p#time{
   small#small {
     font-size: xx-small;
     color: pink;
+  }
+  footer button#button-start img {
+    width: 60px;
   }
 }
 
