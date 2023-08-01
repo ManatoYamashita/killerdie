@@ -38,7 +38,7 @@
   
 <style scoped>
     div.w3 {
-        background-image: url(src/assets/window.PNG);
+        background-image: url("@/assets/window.PNG");
         background-size: 90%;
         background-position: initial;
         background-repeat: no-repeat;

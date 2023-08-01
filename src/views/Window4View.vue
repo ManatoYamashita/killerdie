@@ -42,12 +42,12 @@
   
 <style scoped>
     div.w4 {
-        background-image: url(src/assets/window.PNG);
+        background-image: url("@/assets/window.PNG");
         background-size: 90%;
         background-position: initial;
         background-repeat: no-repeat;
         width: 60%;
-        height: 70%;
+        height: 75%;
         padding: 8% 3% 3% 3%;
         max-width: 600px;
     }
