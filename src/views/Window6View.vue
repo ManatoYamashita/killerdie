@@ -3,7 +3,7 @@
         <article>
             <h2>エクスプローラ</h2>
             <h3>2023年 キラ大1周年 『そらくる、おめでとうございます！』</h3>
-            <p>リクエストありがとうございます。</p>
+            <p>イラストリクエストありがとうございます。（依頼されたお祝いイラストですが、表現がアレだったのでブラーをかけました。）</p>
             <img src="@/assets/sorakuru.svg" alt="そらくる、おめでとうございます！リクエストありがとうございます。" class="sorakuru">
         </article>
     </div>
@@ -20,7 +20,7 @@
     }
     img {
         width: 30%;
-        filter: blur(30%);
+        filter: blur(4px);
     }
 h2, img.window {
     width: 70%;

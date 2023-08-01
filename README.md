@@ -1,9 +1,11 @@
-# killerdie
+# killerdie-2023
 
-![image]("src/assets/5.jpeg")
-モデルになったtweet: "https://twitter.com/killerDie_/status/1647972629868085248?s=20"
+* ![kd image]("./src/assets/5.jpeg")
 
-東京都市大学キラキラ大学生研究会 2023 1周年記念 公式webサイト / for そらくる, キラ大メンバー
+* モデルになったtweet: "https://twitter.com/killerDie_/status/1647972629868085248?s=20"
+
+### 東京都市大学キラキラ大学生研究会 2023 1周年記念 公式webサイト / for そらくる, キラ大メンバー
+
 This site is a Web site for Tokyo City univ-Killer Die 2023.
 ## Created project by
 
