@@ -1,6 +1,6 @@
 # killerdie-2023
 
-* ![kd image]("./src/assets/5.jpeg")
+* ![kd image](./src/assets/5.jpeg)
 
 * モデルになったtweet: "https://twitter.com/killerDie_/status/1647972629868085248?s=20"
 
