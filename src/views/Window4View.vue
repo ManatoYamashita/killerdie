@@ -8,7 +8,7 @@
                     <li>聖乳くるみ<small>（会長）</small></li>
                     <li>Himeka<small>（副会長）</small></li>
                     <li><a href="https://manapuraza.com/" style="text-decoration: none;color: black;">匿名希望下マナト</a></li>
-                    <li>はゆ</li>
+                    <li><a href="https://note.com/yuchi3chiiiiiimu" style="text-decoration: none;color: black;">はゆ</a></li>
                     <li>あきやまそら</li>
                     <li>にゃんにゃん老師</li>
                     <li>門馬犬</li>
