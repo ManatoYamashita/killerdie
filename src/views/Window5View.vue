@@ -1,7 +1,7 @@
 <template>
     <div class="w5" id="w5">
       <h2>スタート</h2>
-      <h3>Comming Soon...</h3>
+      <h3>How you feel?</h3>
       <p>このサイトはキラ大1周年を記念して制作されたWebサイトです。デザインは本研究会会長がデザインした「<a href="https://twitter.com/killerDie_/status/1647972629868085248?s=20">このTweet（x.com）</a>」
         を参考に、本研究会員の匿名希望下マナトがコーディングしています。なお、当サイトはまだ未完成となっています。
         内容はキラキラ大学生研究会で校閲した上で、徐々に皆さんと作っていきたいと考えています。
@@ -11,7 +11,7 @@
     </p>
 
       <img src="@/assets/5.jpeg" alt="window" class="window">
-      <img src="@/assets/logo.svg" alt="logo" class="logo" style="width: 30%;">
+      <img src="@/assets/logo.svg" alt="logo" class="logo" style="width: 20%;">
     </div>
 </template>
   
@@ -22,7 +22,7 @@
         left: 5%;
     }
     h2, .window {
-        width: 50%;
+        width: 30%;
     }
     p {
         width: 50%;

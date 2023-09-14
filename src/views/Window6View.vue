@@ -2,9 +2,9 @@
     <div class="w6" id="w6">
         <article>
             <h2>エクスプローラ</h2>
-            <h3>2023年 キラ大1周年 『そらくる、おめでとうございます！』</h3>
-            <p>イラストリクエストありがとうございます。（依頼されたお祝いイラストですが、表現がアレだったのでブラーをかけました。）</p>
-            <img src="@/assets/sorakuru.svg" alt="そらくる、おめでとうございます！リクエストありがとうございます。" class="sorakuru">
+            <h3>2023年 キラ大1周年!</h3>
+            <p>Under Consrtraction...</p>
+            <img src="@/assets/kaicho.jpeg" alt="キラ大会長(ロリ)、可愛い" class="rorikaicho">
         </article>
     </div>
 </template>
@@ -19,11 +19,12 @@
         margin: 2%;
     }
     img {
-        width: 30%;
-        filter: blur(4px);
+        width: 20%;
+        padding-top: 7%;
+        filter: blur(5px);
     }
 h2, img.window {
-    width: 70%;
+    width: 30%;
 }
 
 @media screen and (max-width: 520px) {
