@@ -1,0 +1,11 @@
+# Netlify SPA fallback for vue-router (createWebHistory).
+# Without these rules, opening or reloading /w2 etc. directly returns 404 because
+# only /index.html exists in the build output. Rewrite (200, not a redirect) the
+# client-side routes to index.html so the router can render the matching view.
+# Routes are listed explicitly (keep in sync with src/router/index.js) so that
+# unknown paths and missing asset files still get a real 404 instead of the SPA shell.
+/w2  /index.html  200
+/w3  /index.html  200
+/w4  /index.html  200
+/w5  /index.html  200
+/w6  /index.html  200
